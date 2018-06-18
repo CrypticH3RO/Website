@@ -12,3 +12,25 @@ body
 	/*Making the background color purple*/
 	background-color: #bf00ff;
 }
+/*Settings for box class*/
+.box {
+	/*Setting background color*/
+	background-color: #DDDDDD;
+	/*Making it centered*/
+	margin-left: 25%;
+    margin-right: 25%;
+	/*Making it rounded at the edges*/
+	border-radius: 25px;
+	/*Making text align to the center*/
+	text-align: center;
+}
+/*Settings for section class*/
+.section
+{
+	/*Making text align to the center*/
+	text-align: center;
+	/*Underlining the text*/
+	text-decoration: underline;
+	/*Setting the background color*/
+	background-color: #87CEFA;
+}
