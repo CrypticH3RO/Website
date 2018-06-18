@@ -1,0 +1,14 @@
+/*background-color of the website*/
+body
+{
+    background-color: #EEEEEE;
+}
+/*Settings for title id*/
+#title{
+	/*Align the text to the center*/
+	text-align: center;
+	/*Underlining the text*/
+	text-decoration: underline;
+	/*Making the background color purple*/
+	background-color: #bf00ff;
+}
