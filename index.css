@@ -24,6 +24,29 @@ body
 	/*Making text align to the center*/
 	text-align: center;
 }
+/*Settings for box2 class*/
+.box2 {
+	/*Setting background color*/
+	background-color: #DDDDDD;
+	/*Making it rounded at the edges*/
+	border-radius: 25px;
+	/*Making text align to the center*/
+	clear: both;
+}
+span
+{
+	/*Setting background color*/
+	background-color: #DDDDDD;
+	/*Making it rounded at the edges*/
+	border-radius: 25px;
+}
+
+.linkpic
+{
+	float: right;
+	width: 40%;
+	height: 50%;
+}
 /*Settings for section class*/
 .section
 {
@@ -33,4 +56,9 @@ body
 	text-decoration: underline;
 	/*Setting the background color*/
 	background-color: #87CEFA;
+	clear: both;
+}
+.IntroBox
+{
+	background-color: green;
 }
