@@ -1,0 +1,49 @@
+.phone
+{
+	width: 200;
+	height: 300;
+	border: 1px solid red;
+	background-color: black;
+}
+.bottom
+{
+	float: right;
+	width: 199;
+	padding: 0px;
+	height: 87;
+	position: absolute;
+	top: 220;
+	background-color: white;
+	border: 1px solid red;
+}
+.home
+{
+	position: absolute;
+	top: 40;
+	left: 100;
+	width: 20;
+	height: 20;
+	background-color: red;
+	border: 1px solid black;
+	box-shadow: 0px 4px grey;
+	/* Smoothing out hover and active states using css3 transitions */
+	transition: all 0.2s ease;
+}
+/* Some hover effects */
+.home:hover {
+	background: #990000;
+	box-shadow: 0px 4px #404040;
+}
+.home:active {
+	background: #990000;
+	box-shadow: 0px 0px #404040;
+}
+
+.keys span {
+	float: left;
+	width: 66px;
+	background: white;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+}
