@@ -45,6 +45,7 @@ span
 {
 	float: right;
 	width: 40%;
+	max-width: 300;
 	height: 50%;
 }
 /*Settings for section class*/

@@ -1,0 +1,58 @@
+<!-- Oninput is useful for outputting in real time in html--> 
+<html>
+<head>
+	<!-- Setting the title of the webpage -->
+	<title>Phone</title>
+	<!--Adding the CSS here--> 
+	<style>
+	/* Adding styling for the element with id outputbox */
+	#outputbox {
+		/* Making it stay on the right side of the page */
+		float: right;
+		/* Setting its height and width */
+		height: 100%;
+		width: 50%;
+		/* Setting border properties */
+		border: 1px solid red;
+	}
+	</style>
+	<!--Adding the Javascript code here--> 
+	<script>
+		// Function to output words given in the outputbox
+		function output(words) {
+			document.getElementById("outputbox").innerHTML = words;
+		}
+		//Function to output given words in an alert box
+		function alerting(words) {
+			alert(words)
+		}
+	</script>
+</head>
+<body>
+<!--Adding the title--> 
+<h1 style = "color: purple;">JavaScript Tutorial (Work in Progress)</h1>
+<!--Adding the output box title--> 
+<h2 style="margin-left: 50%;">OutputBox</h2>
+<!--Adding the output box here--> 
+<div id = "outputbox">
+</div>
+<!--Writing in the webpage--> 
+<p>To write Javascript in an html page, you use script tags: &ltscript&gt &lt/script&gt </p>
+
+<p>Writing into HTML output is done using document.write() </p>
+<!--Adding buttons--> 
+<button type="button" onclick = "output('Hello')">document.write('Hello')</button>
+<button type="button" onclick = "output(4+3)">document.write(4+3)</button>
+<button type="button" onclick = "output(3==4)">document.write(3 == 4)</button>
+<button type="button" onclick = "output(4==4)">document.write(4 == 4)</button>
+
+<p>You can also write into an alert box by using alert()</p>
+<!--Adding buttons--> 
+<button type="button" onclick = "alerting('This is an alert message')">alert('This is an alert message')</button>
+<button type="button" onclick = "alerting(4+3)">alert(4+3)</button>
+<button type="button" onclick = "alerting(3==4)">alert(4==3)</button>
+<button type="button" onclick = "alerting(4==4)">alert(4==4)</button>
+<br>
+<a href = "index.html"> Back to Home </a>
+</body>
+</html>

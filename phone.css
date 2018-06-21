@@ -1,3 +1,4 @@
+/*Styling for the phone class*/
 .phone
 {
 	width: 200;
@@ -5,6 +6,7 @@
 	border: 1px solid red;
 	background-color: black;
 }
+/*Styling for the bottom of the phone*/
 .bottom
 {
 	float: right;
@@ -16,11 +18,12 @@
 	background-color: white;
 	border: 1px solid red;
 }
+/*Styling for the home button*/
 .home
 {
 	position: absolute;
 	top: 40;
-	left: 100;
+	left: 90;
 	width: 20;
 	height: 20;
 	background-color: red;
@@ -29,21 +32,56 @@
 	/* Smoothing out hover and active states using css3 transitions */
 	transition: all 0.2s ease;
 }
-/* Some hover effects */
+/*Hover effects for the home button*/
 .home:hover {
 	background: #990000;
 	box-shadow: 0px 4px #404040;
 }
+/*Clicked styling effects while button is being pushed*/
 .home:active {
 	background: #990000;
 	box-shadow: 0px 0px #404040;
 }
-
-.keys span {
+/*Styling for the buttons on the phone screen*/
+.keys span , .call , .zero {
+	text-align: center;
 	float: left;
-	width: 66px;
+	width: 55px;
 	background: white;
 	border-radius: 3px;
 	text-align: center;
-	line-height: 36px;
+	line-height: 30px;
+	margin: 5px;
+}
+/*Styling when hovering over buttons on phone screen*/
+.keys span:hover , .zero:hover {
+	background: #D050D0;
+}
+/*Styling while pushing buttons on phone screen*/
+.keys span:active , .zero:active {
+	background: #760076;
+}
+/*Styling for zero button and call button on home screen*/
+.zero , .call{
+	margin-left: 70px;
+	clear: both;
+	/*
+	position: absolute;
+	left: 100;
+	top: 120;
+	*/
+}
+/*Styling for the call button*/
+.call {
+	margin-left: 47px;
+	width: 100px;
+	background-color: red;
+}
+/*Styling when hovering over call button*/
+.call:hover {
+	background: #990000;
+}
+/*Styling while clicking the call button*/
+.call:active {
+	background: yellow;
 }
