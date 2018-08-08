@@ -8,13 +8,16 @@
 	<!-- Linking the javascript code -->
 	<script src="phone.js"></script>
 </head>
-<body>
+<body onload = "start()">
 	<!-- div element for the phone -->
 	<div class = "phone">
+		<!-- div element for the screen on top -->
+		<div class = "screen" id = "screen1">
+		</div>
 		<!-- div element for the keys -->
-		<div class="keys">
+		<div class="keys" id = "keys1">
 			<!-- operators and other keys -->
-			<span class = "test" onclick = "myFunction()">1</span>
+			<span id = "a">1</span>
 			<span>2</span>
 			<span>3</span>
 			<span>4</span>
@@ -35,8 +38,13 @@
 			</div>
 		</div>
 	</div>
-	<div class = "number">
-	</div>
 	<a href = "index.html"> Back to Home </a>
+	<div class = "number" id = "test">
+	</div>
+	<script>
+		// Either one works
+		//document.getElementsByClassName("number")[0].innerHTML = "Hi";
+		//document.getElementById("test").innerHTML = "Hello";
+	</script>
 </body>
 </html>

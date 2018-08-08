@@ -2,9 +2,17 @@
 .phone
 {
 	width: 200;
-	height: 300;
+	height: 330;
 	border: 1px solid red;
 	background-color: black;
+}
+/*Styling for the top screen*/
+.screen
+{
+	background-color: white;
+	width: 150;
+	height: 40;
+	margin-left: 23;
 }
 /*Styling for the bottom of the phone*/
 .bottom
@@ -14,8 +22,8 @@
 	padding: 0px;
 	height: 87;
 	position: absolute;
-	top: 220;
-	background-color: white;
+	top: 250;
+	background-color: FFE4C4;
 	border: 1px solid red;
 }
 /*Styling for the home button*/
