@@ -5,6 +5,7 @@
 	height: 330;
 	border: 1px solid red;
 	background-color: black;
+	float: left;
 }
 /*Styling for the top screen*/
 .screen

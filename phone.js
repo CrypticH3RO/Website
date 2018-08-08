@@ -21,7 +21,9 @@ var keyA = keys.getElementsByTagName("span");
 var keys = document.querySelectorAll('#keys1 span');
 */
 // Get the screen
-screen = document.getElementById("screen1");
+var screen = document.getElementById("screen1");
+var call = document.getElementById("call1");
+var output = document.getElementById("output1");
 //Set up an onclick event for each span key
 for (i=0; i < keyA.length; i++){
 	keyA[i].onclick = function(){
@@ -34,6 +36,10 @@ for (i=0; i < keyA.length; i++){
 			screen.innerHTML += this.innerHTML;
 		}
 	}
+}
+call.onclick = function() {
+	var number = screen.innerHTML;
+	output.innerHTML = "You called " + number;
 }
 }
 
