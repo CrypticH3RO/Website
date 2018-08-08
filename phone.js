@@ -25,7 +25,14 @@ screen = document.getElementById("screen1");
 //Set up an onclick event for each span key
 for (i=0; i < keyA.length; i++){
 	keyA[i].onclick = function(){
-		screen.innerHTML += this.innerHTML;
+		// Check if asking us to delete
+		if(this.innerHTML == "Delete"){
+			//Delete a number
+			screen.innerHTML = screen.innerHTML.substr(0, screen.innerHTML.length - 1);
+		}
+		else {
+			screen.innerHTML += this.innerHTML;
+		}
 	}
 }
 }
