@@ -1,18 +1,3 @@
-/*
-test.onclick = function(){
-	screen = document.querySelector("number");
-	screen.innerHTML = this.innerHTML;
-	alert("Hi");
-}
-*/
-function myFunction2() {
-	/*
-	screen = document.querySelector("number");
-	value = document.querySelector("test");
-	screen.innerHTML = value.innerHTML;
-	*/
-	alert("Hi");
-}
 function start() {
 // Get all the span elements in the key
 var keys = document.getElementById("keys1");
